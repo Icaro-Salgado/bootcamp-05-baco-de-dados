@@ -1,10 +1,10 @@
 CREATE TYPE "sales_status" AS ENUM (
-  'waiting_payment',
-  'payment_aproved',
-  'preparing_shippment',
-  'in_transit',
-  'delivered'
-);
+    'waiting_payment',
+    'payment_aproved',
+    'preparing_shippment',
+    'in_transit',
+    'delivered'
+    );
 
 CREATE TABLE "clients"
 (
