@@ -35,17 +35,18 @@
 
 ## Aplicando terceira forma normal (3FN)
 
-> Exclua subgrupos de dados em várias colunas de uma tabela e crie novas tabelas, 
+> Exclua subgrupos de dados em várias colunas de uma tabela e crie novas tabelas,
 > com relacionamentos entre elas.  
-> Uma relação está na 3FN se, e somente se, estiver na 2FN e cada atributo não-chave 
+> Uma relação está na 3FN se, e somente se, estiver na 2FN e cada atributo não-chave
 > depender da chave primária de forma não transitiva.  
-> Quando as tabelas estão na Terceira Forma Normal, os erros de lógica são evitados quando 
+> Quando as tabelas estão na Terceira Forma Normal, os erros de lógica são evitados quando
 > os registros são inseridos ou excluídos.  
-> Cada coluna em uma tabela é identificada exclusivamente pela chave primária e não deve haver dados 
+> Cada coluna em uma tabela é identificada exclusivamente pela chave primária e não deve haver dados
 > duplicados. Isso fornece uma modelagem limpa e elegante que é fácil de trabalhar e expandir.
 
 - Nota-se que os dados referentes a pagamento podem ser extraídos para uma tabela
 - Também pode ser criado uma base de faturamento, apenas referenciando os dados da fatura
 
 ### 3FN
+
 ![img_3.png](img/img_3.png)

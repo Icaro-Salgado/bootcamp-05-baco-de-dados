@@ -1,0 +1,3 @@
+-- 12. Em que outra tabela você criaria um índice e por quê? Justifique a resposta
+-- genres, pois a tendência é consultarmos o tipo de filme pelo nome do genero e assim obter o id dele para salvar em novos filmes;
+-- actors, pois as consultas em atores tendem a ser pelo nome e não pelo id.

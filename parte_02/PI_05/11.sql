@@ -1,0 +1,3 @@
+-- 11. No banco de dados movies, haveria uma melhoria notável na criação de índices? Analise e justifique a resposta.
+-- Depende da consulta que sempre é realizada, caso o mais buscado em queries seja o nome do filme, com certeza
+-- a criação de um indicie em 'title' ajudaria. O correto é fazer uma análise do que costuma mais ser indexado.
